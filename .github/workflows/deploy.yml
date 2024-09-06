@@ -23,5 +23,5 @@ jobs:
 
     - name: Build and Deploy
       run: |
-        docker build -t your-app-name ./app
+        docker build -t mlops-task-01 ./app
         vercel --prod
